@@ -1,0 +1,7 @@
+ -  id: git-cmds
+    name: git-cmds
+    entry: git update-index -g
+    language: sh
+    args: []
+    require_serial: false
+    minimum_pre_commit_version: '0'
